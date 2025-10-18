@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      // ...
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "./src/*"
+        ],
+        "@mods/*": [".src/components/modules/*"],
+        "@layouts/*": [".src/components/layouts/*"],
+        "@brows/*": [".src/pages/browse/*"]
+      }
+      // ...
+    }
+  }
